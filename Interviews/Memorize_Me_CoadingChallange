@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Game {
@@ -22,7 +23,7 @@ public class Game {
             int query = sc.nextInt();
 
       
-            int count = countOcc(numbers, query);
+            int count = Bi(numbers, query);
 
            
             if (count > 0) {
@@ -36,7 +37,7 @@ public class Game {
     }
 
     
-    public static int countOcc(int[] numbers, int query) {
+    public static int Bi(int[] numbers, int query) {
         int count = 0;
         for (int num : numbers) {
             if (num == query) {
